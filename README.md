@@ -1,5 +1,13 @@
-AUTHOR : SonySec07, 
-INSTAGRAM : SonySec07, 
-WHATSAPP : +234 704 345 7087, 
-YOUTUBE : sonymodderr, 
-EMAIL : mrsn9000@gmail.com, 
+## What Is M1NI UPL04D3R
+- M1NI UPL04D3R This is a simple PHP script used to upload files to a Server.
+
+## Screenshot
+![Dolkings preview](gambar.png)
+
+## Hubungi Kami
+- [YouTube](https://youtube.com/sonymodderr)
+- [Instagram](https://instagram.com/kuciingterrbang)
+- [Telegram](https://t.me/OrdinaryPeople403)
+
+## SUPPORT ME
+- [Saweria](https://saweria.co/SonySec07)

@@ -1,0 +1,563 @@
+
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TBRH3F7');</script>
+<!-- End Google Tag Manager -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700|Signika:300,400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="/templates/nca/plugins/fancybox/jquery.fancybox.min.css" type="text/css"/>
+    <meta charset="utf-8">
+	<meta name="description" content="The National Crime Agency leads the UK's fight to cut serious and organised crime.">
+	<meta name="generator" content="Joomla! - Open Source Content Management">
+	<title>Home - National Crime Agency</title>
+	<link href="/templates/nca/favicon.ico" rel="icon" type="image/vnd.microsoft.icon">
+<link href="/media/vendor/chosen/css/chosen.css?1.8.7" rel="stylesheet">
+	<link href="/media/vendor/joomla-custom-elements/css/joomla-alert.min.css?0.4.1" rel="stylesheet">
+	<link href="/media/jui/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/templates/nca/css/template-green.css?v=1" rel="stylesheet">
+	<link href="/media/com_finder/css/finder.min.css?e8d00a" rel="stylesheet">
+<script src="/media/mod_menu/js/menu.min.js?e8d00a" type="module"></script>
+	<script src="/media/vendor/jquery/js/jquery.min.js?3.7.1"></script>
+	<script src="/media/legacy/js/jquery-noconflict.min.js?504da4"></script>
+	<script src="/media/vendor/chosen/js/chosen.jquery.min.js?1.8.7"></script>
+	<script src="/media/legacy/js/joomla-chosen.min.js?e8d00a"></script>
+	<script type="application/json" class="joomla-script-options new">{"joomla.jtext":{"ERROR":"Error","MESSAGE":"Message","NOTICE":"Notice","WARNING":"Warning","JCLOSE":"Close","JOK":"OK","JOPEN":"Open"},"system.paths":{"root":"","rootFull":"https:\/\/www.nationalcrimeagency.gov.uk\/","base":"","baseFull":"https:\/\/www.nationalcrimeagency.gov.uk\/"},"csrf.token":"4721ad5fd6d4f3543e1a4a259a2f9624"}</script>
+	<script src="/media/system/js/core.min.js?a3d8f8"></script>
+	<script src="/media/vendor/bootstrap/js/alert.min.js?5.3.8" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/button.min.js?5.3.8" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/carousel.min.js?5.3.8" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/collapse.min.js?5.3.8" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/dropdown.min.js?5.3.8" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/modal.min.js?5.3.8" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/offcanvas.min.js?5.3.8" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/popover.min.js?5.3.8" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/scrollspy.min.js?5.3.8" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/tab.min.js?5.3.8" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/toast.min.js?5.3.8" type="module"></script>
+	<script src="/media/system/js/messages.min.js?9a4811" type="module"></script>
+	<script>
+		jQuery(document).ready(function (){
+			jQuery('.advancedSelect').jchosen({"disable_search_threshold":10,"search_contains":true,"allow_single_deselect":true,"placeholder_text_multiple":"Type or select some options","placeholder_text_single":"Select an option","no_results_text":"No results match"});
+		});
+	</script>
+	<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.nationalcrimeagency.gov.uk/#/schema/Organization/base","name":"National Crime Agency","url":"https://www.nationalcrimeagency.gov.uk/"},{"@type":"WebSite","@id":"https://www.nationalcrimeagency.gov.uk/#/schema/WebSite/base","url":"https://www.nationalcrimeagency.gov.uk/","name":"National Crime Agency","publisher":{"@id":"https://www.nationalcrimeagency.gov.uk/#/schema/Organization/base"},"potentialAction":{"@type":"SearchAction","target":"https://www.nationalcrimeagency.gov.uk/search?q={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"WebPage","@id":"https://www.nationalcrimeagency.gov.uk/#/schema/WebPage/base","url":"https://www.nationalcrimeagency.gov.uk/","name":"Home - National Crime Agency","description":"The National Crime Agency leads the UK's fight to cut serious and organised crime.","isPartOf":{"@id":"https://www.nationalcrimeagency.gov.uk/#/schema/WebSite/base"},"about":{"@id":"https://www.nationalcrimeagency.gov.uk/#/schema/Organization/base"},"inLanguage":"en-GB"},{"@type":"Article","@id":"http://www.nationalcrimeagency.gov.uk/#/schema/com_content/article/2","name":"Home","headline":"Home","inLanguage":"en-GB","isPartOf":{"@id":"http://www.nationalcrimeagency.gov.uk/#/schema/WebPage/base"}}]}</script>
+	<script>
+jQuery(document).ready(function() {
+	var value, searchword = jQuery('#mod-finder-searchword253');
+
+		// Get the current value.
+		value = searchword.val();
+
+		// If the current value equals the default value, clear it.
+		searchword.on('focus', function ()
+		{
+			var el = jQuery(this);
+
+			if (el.val() === 'Search &hellip;')
+			{
+				el.val('');
+			}
+		});
+
+		// If the current value is empty, set the previous value.
+		searchword.on('blur', function ()
+		{
+			var el = jQuery(this);
+
+			if (!el.val())
+			{
+				el.val(value);
+			}
+		});
+
+		jQuery('#mod-finder-searchform253').on('submit', function (e)
+		{
+			e.stopPropagation();
+			var advanced = jQuery('#mod-finder-advanced253');
+
+			// Disable select boxes with no value selected.
+			if (advanced.length)
+			{
+				advanced.find('select').each(function (index, el)
+				{
+					var el = jQuery(el);
+
+					if (!el.val())
+					{
+						el.attr('disabled', 'disabled');
+					}
+				});
+			}
+		});});</script>
+
+    <!--[if lt IE 9]><script src="/media/jui/js/html5.js"></script><![endif]-->
+    <meta name="twitter:card" content="summary" />
+<!--    <meta name="twitter:site" content="@NCA_UK" />-->
+    <meta name="twitter:creator" content="@NCA_UK" />
+    <meta property="og:url" content="https://www.nationalcrimeagency.gov.uk/" />
+    <meta property="og:title" content="Home" />
+    <meta property="og:description" content="{loadposition homepage01} {loadposition homepage02} {loadposition homepage03} {loadposition homepage04}..." />
+    <meta property="og:image" content="https://www.nationalcrimeagency.gov.uk/images/headers/nca-logo.png" />
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TBRH3F7"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div class="skiptocontent">
+    <a href="#main-content">Skip to content</a>
+</div>
+<div class="site-container">
+    
+<style> 
+ #quick-exit-wrapper {
+	display: none;
+	position:fixed; 
+	top:50px; 
+	right:0px; 
+	padding:10px;
+	font-size: 0.8em; 
+	width:65px;
+	font-weight:bold;
+	z-index:100;
+ }	 
+/* Media Query for Mobile Devices */ 
+@media (max-width: 480px) {
+	#quick-exit-wrapper {
+		display: block;
+		position:fixed; 
+		top:590px; 
+		right:0px; 
+		padding:10px;
+		font-size: 0.8em;
+		z-index:10;
+	}
+} 
+  
+/* Media Query for low resolution  Tablets, Ipads */ 
+@media (min-width: 481px) and (max-width: 767px) { 
+	#quick-exit-wrapper {
+		display: block;
+		position:fixed; 
+		top:200px; 
+		right:0px; 
+		padding:10px;
+		font-size: 0.8em;
+		z-index:10;
+	}
+} 
+  
+/* Media Query for Tablets Ipads portrait mode */ 
+@media (min-width: 768px) and (max-width: 1024px){ 
+	#quick-exit-wrapper {
+		display: block;
+		position:fixed; 
+		top:200px; 
+		right:0px; 
+		padding:10px;
+		font-size: 0.8em;
+		z-index:10;
+	}
+} 
+  
+/* Media Query for Laptops and Desktops */ 
+@media (min-width: 1025px) and (max-width: 1280px){ 
+	#quick-exit-wrapper {
+		display: block;
+		position:fixed; 
+		top:200px; 
+		right:0px; 
+		padding:10px;
+		font-size: 0.8em;
+		z-index:10;
+	}
+} 
+  
+/* Media Query for Large screens */ 
+@media (min-width: 1281px) { 
+	#quick-exit-wrapper {
+		display: block;
+	} 
+} 
+</style> 
+
+<div id="quick-exit-wrapper" style=" 
+background-color:#cc0000;
+color: #ffffff;
+"
+>
+<a style="color: #ffffff; " href="https://www.google.co.uk"> Quick exit </a>
+</div>
+    <div class="container-fluid header">
+        <div class="row-fluid topline">
+                            <div class="pull-right">
+                    <ul class="mod-menu mod-list nav ">
+<li class="nav-item item-153"><a href="/cymraeg" role="menuitem">Cymraeg</a></li><li class="nav-item item-152"><a href="https://sarsreporting.nationalcrimeagency.gov.uk/" >Reporting SARs</a></li><li class="nav-item item-1060"><a href="https://www.nationalcrimeagency.gov.uk/what-we-do/crime-threats/child-sexual-abuse-and-exploitation/the-child-sexual-exploitation-abuse-industry-reporting-portal" >CSEA Reporting for Industry</a></li></ul>
+
+                </div>
+                    </div>
+        <div class="row-fluid midline">
+            <div class="header-logo pull-left"><a title="National Crime Agency" href="https://www.nationalcrimeagency.gov.uk/" aria-label="National Crime Agency">
+		<img src="/images/NCA_logo.png" alt="NCA Logo" title="National Crime Agency" width="208" />
+                </a></div>
+            <div class="header-statement pull-right hidden-tablet hidden-phone">Protecting the public from serious and organised crime</div>
+        </div>		
+                    <div class="row-fluid navline">
+                <div class="navbar">					
+                    <button id="btn-navbar" class="btn btn-navbar collapsed" aria-haspopup="menu">
+                        <span class="icon-barr"></span>
+                        <span class="icon-barr"></span>
+                        <span class="icon-barr"></span>
+                        <span class="icon-barr"></span>
+                    </button>					
+                </div>
+                <div id="topmenu-navbar" class="nav-collapse navbar" role="navigation" aria-label="Main navigation menu">
+                    <div class="nav">
+                        <ul role="menubar" class="disclosure-nav nav menu">
+  <li role="none" class="item-102  item-102  deeper parent level-1" ><a href="/who-we-are" aria-haspopup="true" aria-expanded="false" role="menuitem">Who we are</a><button class="main-menu-collapse-sign" aria-expanded="false" aria-controls="subMenu-1"> 
+      <span class="main-menu-arrow down"></span>
+      <span class="screen-reader-text">show submenu for Who we are</span></button><ul id="subMenu-1" class="nav-child unstyled small"><div class="table-wrapper"><li role="none" class="item-305 level-2"><a href="/who-we-are/our-mission" role="menuitem">Our mission</a></li><li role="none" class="item-117 level-2"><a href="/who-we-are/our-people" role="menuitem">Our people</a></li><li role="none" class="item-118 level-2"><a href="/who-we-are/our-leadership" role="menuitem">Our leadership</a></li><li role="none" class="item-203 level-2"><a href="/who-we-are/governance-and-transparency" role="menuitem">Governance and transparency</a></li><li role="none" class="item-205 level-2"><a href="/who-we-are/inclusion-diversity-and-equality" role="menuitem">Inclusion, diversity and equality</a></li><li role="none" class="item-171 level-2"><a href="/who-we-are/publications?category[0]=1&amp;category_children=1" role="menuitem">Publications</a></li></div></ul></li><li role="none" class="item-103 level-1-columns-3 item-103 level-1-columns-3 deeper parent level-1" ><a href="/what-we-do" class="level-1-columns-3" aria-haspopup="true" aria-expanded="false" role="menuitem">What we do</a><button class="main-menu-collapse-sign" aria-expanded="false" aria-controls="subMenu-23"> 
+      <span class="main-menu-arrow down"></span>
+      <span class="screen-reader-text">show submenu for What we do</span></button><ul id="subMenu-23" class="nav-child unstyled small"><div class="table-wrapper"><div class="menu-level2-column"><li role="none" class="item-119 deeper parent level-2"><a href="/what-we-do/crime-threats" role="menuitem">What we investigate</a></li><li role="none" class="item-285 level-3"><a href="/what-we-do/crime-threats/border-vulnerabilities" role="menuitem">Border vulnerabilities</a></li><li role="none" class="item-127 level-3"><a href="/what-we-do/crime-threats/bribery-corruption-and-sanctions-evasion" role="menuitem">Bribery, corruption and sanctions evasion</a></li><li role="none" class="item-124 level-3"><a href="/what-we-do/crime-threats/cybercrime" role="menuitem">Cybercrime</a></li><li role="none" class="item-750 level-3"><a href="/what-we-do/crime-threats/child-sexual-abuse-and-exploitation" role="menuitem">Child sexual abuse and exploitation</a></li><li role="none" class="item-125 level-3"><a href="/what-we-do/crime-threats/drug-trafficking" role="menuitem">Drug trafficking</a></li><li role="none" class="item-122 level-3"><a href="/what-we-do/crime-threats/firearms" role="menuitem">Illegal firearms</a></li><li role="none" class="item-223 level-3"><a href="/what-we-do/crime-threats/fraud-and-economic-crime" role="menuitem">Fraud</a></li><li role="none" class="item-128 level-3"><a href="/what-we-do/crime-threats/kidnap-and-extortion" role="menuitem">Kidnap and extortion</a></li><li role="none" class="item-954 level-3"><a href="/missingpersons" >Missing persons</a></li><li role="none" class="item-123 level-3"><a href="/what-we-do/crime-threats/modern-slavery-and-human-trafficking" role="menuitem">Modern slavery and human trafficking</a></li><li role="none" class="item-126 level-3"><a href="/what-we-do/crime-threats/money-laundering-and-illicit-finance" role="menuitem">Money laundering and illicit finance</a></li><li role="none" class="item-206 level-3"><a href="/what-we-do/crime-threats/organised-immigration-crime" role="menuitem">Organised immigration crime</a></li><li role="none" class="item-751 level-3"><a href="/what-we-do/crime-threats/operation-stovewood-rotherham-child-sexual-abuse-investigation" role="menuitem">Operation Stovewood: Rotherham child sexual abuse investigation</a></li></div><div class="menu-level2-column"><li role="none" class="item-120 deeper parent level-2"><a href="/what-we-do/how-we-work" role="menuitem">How we work</a></li><li role="none" class="item-226 level-3"><a href="/what-we-do/how-we-work/intelligence-enhancing-the-picture-of-serious-organised-crime-affecting-the-uk" role="menuitem">Intelligence: enhancing the picture of serious organised crime affecting the UK</a></li><li role="none" class="item-225 level-3"><a href="/what-we-do/how-we-work/investigating-and-disrupting-the-highest-risk-serious-and-organised-criminals" role="menuitem">Investigating and disrupting the highest risk serious and organised criminals</a></li><li role="none" class="item-758 level-3"><a href="/what-we-do/how-we-work/providing-specialist-capabilities-for-law-enforcement" role="menuitem">Providing specialist capabilities for law enforcement</a></li><li role="none" class="item-228 level-3"><a href="/what-we-do/how-we-work/supporting-victims-and-survivors" role="menuitem">Supporting victims and survivors</a></li><li role="none" class="item-845 level-3"><a href="https://nationalcrimeagency.gov.uk/nsa" >National Strategic Assessment for Serious and Organised Crime</a></li><li role="none" class="item-1040 level-3"><a href="/what-we-do/how-we-work/underworld-behind-the-scenes-of-the-nca-podcast" role="menuitem">Underworld: Behind the scenes of the NCA Podcast</a></li></div></ul></li></li><li role="none" class="item-105  item-105  deeper parent level-1" ><a href="/news" aria-haspopup="true" aria-expanded="false" role="menuitem">News</a><button class="main-menu-collapse-sign" aria-expanded="false" aria-controls="subMenu-75"> 
+      <span class="main-menu-arrow down"></span>
+      <span class="screen-reader-text">show submenu for News</span></button><ul id="subMenu-75" class="nav-child unstyled small"><div class="table-wrapper"><li role="none" class="item-151 level-2"><a href="/news/all-news?view=search&amp;layout=allnews&amp;menuarea=news" role="menuitem">All news</a></li></div></ul></li><li role="none" class="item-104  item-104  deeper parent level-1" ><a href="/careers" aria-haspopup="true" aria-expanded="false" role="menuitem">Careers</a><button class="main-menu-collapse-sign" aria-expanded="false" aria-controls="subMenu-79"> 
+      <span class="main-menu-arrow down"></span>
+      <span class="screen-reader-text">show submenu for Careers</span></button><ul id="subMenu-79" class="nav-child unstyled small"><div class="table-wrapper"><li role="none" class="item-158 level-2"><a href="/careers/how-to-join-the-nca" role="menuitem">How to join the NCA</a></li><li role="none" class="item-754 level-2"><a href="/careers/applying-and-onboarding" role="menuitem">Applying and onboarding</a></li><li role="none" class="item-149 level-2"><a href="/careers/vacancies" role="menuitem">Current vacancies</a></li><li role="none" class="item-200 level-2"><a href="/careers/a-day-in-the-life" role="menuitem">A day in the life</a></li><li role="none" class="item-245 level-2"><a href="/careers/benefits-and-support" role="menuitem">Benefits and support</a></li></div></ul></li><li role="none" class="item-140  item-140  level-1"><a href="/most-wanted-search?view=search&amp;layout=mostwanted&amp;area=mostwanted&amp;menuarea=mostwanted" aria-haspopup="true" aria-expanded="false" role="menuitem">Most Wanted</a></li><li role="none" class="item-1034  item-1034  deeper parent level-1" ><a href="/contact-us" aria-haspopup="true" aria-expanded="false" role="menuitem">Contact us</a><button class="main-menu-collapse-sign" aria-expanded="false" aria-controls="subMenu-197"> 
+      <span class="main-menu-arrow down"></span>
+      <span class="screen-reader-text">show submenu for Contact us</span></button><ul id="subMenu-197" class="nav-child unstyled small"><div class="table-wrapper"><li role="none" class="item-1035 level-2"><a href="/contact-us/officer-verification" role="menuitem">Officer verification</a></li><li role="none" class="item-1036 level-2"><a href="/contact-us/return-of-seized-property" role="menuitem">Return of seized property</a></li><li role="none" class="item-1037 level-2"><a href="/contact-us/provide-information-on-serious-and-organised-crime" role="menuitem">Provide information on serious and organised crime</a></li><li role="none" class="item-1038 level-2"><a href="/contact-us/whistleblowing" role="menuitem">Whistleblowing</a></li><li role="none" class="item-1039 level-2"><a href="/contact-us/complaints" role="menuitem">Complaints</a></li><li role="none" class="item-1043 level-2"><a href="/contact-us/media-enquiries" role="menuitem">Media enquiries</a></li><li role="none" class="item-1061 level-2"><a href="/contact-us/contact-us-sars" role="menuitem">Suspicious Activity Reports (SARs)</a></li></div></ul></li></ul>
+
+                    </div>
+                </div>
+                <div class="topsearch-container" >
+                    
+<form id="mod-finder-searchform253" action="/search" method="get" class="form-search" role="search">
+	<div class="finder">
+		<label for="mod-finder-searchword253" class="element-invisible finder">Search</label><input type="text" name="q" id="mod-finder-searchword253" class="search-query input-medium" size="25" value="" placeholder="Search &hellip;" role="searchbox" aria-label="Use keywords to search the NCA website" /><button aria-label="Search submit button. Click to start search" class="btn btn-primary hasTooltip  finder"  type="submit" title="MOD_FINDER_SEARCH_BUTTON" data-original-title="Go">&nbsp;</button>
+								        <input type="hidden" name="Itemid" value="101">
+	</div>
+</form>
+
+                </div>
+                
+            </div>
+                    </div>
+
+    <!-- Placeholder div to mark start of the content and used with skip to content -->
+    <div id="main-content" role="main"> </div>
+    
+    
+    
+            <div class="container-fluid home-page" id="maincontent" lang="en-GB">
+            <div class="row-fluid">
+            <div id="content">
+                <div class="span12">
+                    <!-- Begin Content -->
+                    <div id="system-message-container" aria-live="polite"></div>
+
+                    <div class="item-page" itemscope itemtype="https://schema.org/Article">
+  <meta itemprop="inLanguage" content="en-GB" />
+  
+    
+            
+    
+  
+  
+    
+                          <div itemprop="articleBody">
+      <p><div class="moduletable ">
+        
+<div class="ncahero span12">
+                        <div class="hero-image">
+                <span class="img" role="img" aria-label="NSA 2026 graphic with tagline: National Strategic Assessment 2026 of Serious and Organised Crime" style="background-image: url(https://www.nationalcrimeagency.gov.uk/images/NSA/NSA_2026_website_banner.jpg#joomlaImage://local-images/NSA/NSA_2026_website_banner.jpg?width=2362&height=920)"></span>
+                                    <div class="hero-message">
+                        <p class="emergency-banner__heading">Providing a picture of the threat to the UK from serious and organised crime.</p>
+<div class="btn btn-ncablack"><a href="https://www.nationalcrimeagency.gov.uk/nsa-2026">Read now</a></div>                                            </div>
+                            </div>
+            </div>
+<style type="text/css">
+    .ncahero {
+        height: 460px;
+    }
+</style>
+
+
+</div>
+ <div class="moduletable ">
+        
+<div class="ncalatest featured-tiles-block span12  mod-latest-theme-blue">
+	<div class="module-title">
+		<h3> </h3>
+	</div>
+        	<div class="span12" style="padding-bottom:40px;">
+			<img class="mod-featured-latest-main-img" src="/images/10th-Anniversary/Podcast_hero_image.png" alt="NCA's new podcast: Underworld" />
+
+			<div class="featured-tiles-title">
+				<a href="/what-we-do/how-we-work/underworld-behind-the-scenes-of-the-nca-podcast"> Underworld: Behind the Scenes of the NCA – a true crime podcast from the National Crime Agency </a>
+			</div>
+			<div class="featured-tiles-date">
+				25 October 2023			</div>
+							<div class="featured-tiles-tags">
+									</div>		
+						<div class="featured-tiles-description">
+				<p>&nbsp;<strong><span style="font-size: 14pt;">Listen to the new series of our true crime podcast ‘Underworld: Behind the Scenes of the NCA’ as we unearth the murky ‘underworld’ of serious and organised crime.</span></strong></p>
+			</div>
+	</div>
+        	<div class="items-row cols-3 1 row-fluid clearfix text-left">
+				<div class="span4">
+			<div class="pull-none item-image">
+				<img class="mod-featured-latest-sub-img" src="/images/June2026/HOSKER%20Dale%20custody%20web.png#joomlaImage://local-images/June2026/HOSKER Dale custody web.png?width=508&height=300" alt="Dale Hosker custody image" />				
+			</div>
+			<div class="featured-tiles-sub-title">
+				<a href="/news/drugs-trafficker-jailed-for-cocaine-airport-plots"> Drugs trafficker jailed for cocaine airport plots </a>
+			</div>
+			<div class="featured-tiles-date">
+				17 June 2026			</div>
+							<div class="featured-tiles-tags">
+										<a href="/component/tags/tag/drugs" class="label label-tag">Drug trafficking</a>
+									</div>		
+					
+			<!-- end item -->
+		</div>	
+				<div class="span4">
+			<div class="pull-none item-image">
+				<img class="mod-featured-latest-sub-img" src="/images/NCA_Logo_website.png#joomlaImage://local-images/NCA_Logo_website.png?width=380&height=225" alt="NCA logo" />				
+			</div>
+			<div class="featured-tiles-sub-title">
+				<a href="/news/nca-and-department-for-education-launch-campaign-to-protect-against-invoice-fraud-in-education-sector"> NCA and Department for Education launch campaign to protect against Invoice Fraud in education sector </a>
+			</div>
+			<div class="featured-tiles-date">
+				17 June 2026			</div>
+							<div class="featured-tiles-tags">
+										<a href="/component/tags/tag/fraud" class="label label-tag">Fraud</a>
+									</div>		
+					
+			<!-- end item -->
+		</div>	
+				<div class="span4">
+			<div class="pull-none item-image">
+				<img class="mod-featured-latest-sub-img" src="/images/NCA_Logo_website.png#joomlaImage://local-images/NCA_Logo_website.png?width=380&height=225" alt="NCA logo" />				
+			</div>
+			<div class="featured-tiles-sub-title">
+				<a href="/news/dozens-of-boats-and-engines-seized-as-nca-joins-joint-operation-in-germany"> Dozens of boats and engines seized as NCA joins joint operation in Germany </a>
+			</div>
+			<div class="featured-tiles-date">
+				17 June 2026			</div>
+							<div class="featured-tiles-tags">
+										<a href="/component/tags/tag/organised-immigration-crime" class="label label-tag">Organised immigration crime</a>
+									</div>		
+					
+			<!-- end item -->
+		</div>	
+			</div>
+		<div class="span4 module-item-button">
+		<div class="btn btn-ncablack">
+			<a href="https://www.nationalcrimeagency.gov.uk/news">All news</a>
+		</div>
+	</div>
+	</div>
+
+
+</div>
+<div class="moduletable ">
+        
+<div id="mod-custom230" class="mod-custom custom">
+    <div class="items-row cols-1 row-0 row-fluid clearfix text-center">
+<div class="span12">
+<h2>Your safety is our priority</h2>
+<p>NCA officers work at the forefront of law enforcement, building the best possible intelligence picture of serious and organised crime threats, relentlessly pursuing the most serious and dangerous offenders and developing and delivering specialist capabilities on behalf of law enforcement and other partners.</p>
+</div>
+</div>
+<div class="items-row cols-3 1 row-fluid clearfix text-center">
+<div class="span4">
+<div class="item column-1">
+<div class="pull-none item-image"><a href="/what-we-do/crime-threats"><img src="/images/How-we-work/INTELLIGENCE-334X188.png" alt="Heat map showing red patches indicating people" /></a></div>
+<div class="page-header">
+<h3><a href="/what-we-do/how-we-work/intelligence-enhancing-the-picture-of-serious-organised-crime-affecting-the-uk">Enhancing the intelligence picture of serious and organised crime</a></h3>
+</div>
+</div>
+<!-- end item --></div>
+<!-- end span -->
+<div class="span4">
+<div class="item column-2">
+<div class="pull-none item-image"><a href="/what-we-do/how-we-work"><img src="/images/Crime-threats-intro/firearms.jpg" alt="Eight firearms laid out on table" /></a></div>
+<div class="page-header">
+<h3><a href="/what-we-do/how-we-work/investigating-and-disrupting-the-highest-risk-serious-and-organised-criminals">Investigating and disrupting the highest risk serious and organised criminals</a></h3>
+</div>
+</div>
+<!-- end item --></div>
+<!-- end span -->
+<div class="span4">
+<div class="item column-3">
+<div class="pull-none item-image"><a href="/what-we-do/specialist-capabilities"><img src="/images/Specialist-capabilities/mcis-334x188.png" alt="Officers in white suits searching woodland area" /></a></div>
+<div class="page-header">
+<h3><a href="/what-we-do/how-we-work/providing-specialist-capabilities-for-law-enforcement">Providing specialist capabilities for law enforcement</a></h3>
+</div>
+</div>
+<!-- end item --></div>
+<!-- end span --></div></div>
+</div>
+  </p>     </div>
+
+    
+                    </div>
+
+
+                    <!-- End Content -->
+                </div>
+                            </div>
+
+            
+        </div>
+
+                                                    </div>
+    <div class="row-fluid social">
+        <div class="span12">
+            <h2 class="social-cta">Share this page:</h2>
+            <span class="social-icons">
+                <a class="social-icon facebook" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.nationalcrimeagency.gov.uk%2F"
+				target="_blank" aria-label="Share on Facebook">
+					<img src="/images/social-icons/share-this-facebook-green.png" alt="" aria-hidden="true" />
+                </a>
+                <a class="social-icon twitter" href="https://twitter.com/intent/tweet?text=https%3A%2F%2Fwww.nationalcrimeagency.gov.uk%2F" target="_blank" aria-label="Share on Twitter">
+					<img src="/images/social-icons/share-this-twitter-green.png" alt="" aria-hidden="true" />
+				</a>
+                <a class="social-icon email" href="mailto:?subject=National%20Crime%20Agency%20website&amp;body=https%3A%2F%2Fwww.nationalcrimeagency.gov.uk%2F" aria-label="Share via e-mail">
+					<img src="/images/social-icons/share-this-email-green.png" alt="" aria-hidden="true" />
+				</a>
+            </span>
+            <span class="social-top pull-right"><a id="scroll-top" href="#">TOP &#708;</a></span>
+        </div>
+    </div>
+	<!-- new footer -->
+	<div class="container-fluid footer">
+		<div class="row-fluid">
+			<div class="span9 text-left contact-us float-mobile-span9" >
+             			<!-- 
+				<div class="item-lead">0370 496 7622</div>
+				<div class="general-enquiries">NCA general enquiries or to verify an NCA officer, available 24/7</div>
+	      			-->
+			
+				<div class="general-enquiries"> Verify an officer using our <a href="/contact-us/officer-verification"><strong> online reporting tool</a>.</strong></div>
+			</div>
+			
+			<div class="span3 text-left float-mobile-span3">
+				<a href="https://www.ceop.police.uk">
+					<img id="footer-ceop-img" src="/images/Website-pics/CEOP-blue-button.jpg" alt="Click CEOP logo: Advice, Help, Report">
+				</a>
+			</div>
+		</div>
+		<div class="row-fluid hidden-phone">
+			<div class="span9">
+				<div class="blue-border-left"> </div>
+			</div>
+			<div class="span3">
+				<div class="blue-border-right"> </div>
+			</div>
+		</div>
+		<div class="row-fluid visible-phone">
+			<div class="span12">
+				<div class="blue-border-mobile-margin"> </div>
+			</div>			
+		</div>
+		
+		<div class="row-fluid footer-blocks">
+            <nav aria-label="Footer menu">
+			<div class="span3 footer-left-block footer-padding-top">
+				<div class="row-fluid footer-mini-block">
+                    <ul class="footer-list">
+                        <li> <h2> <a href="/who-we-are"> Who we are </a> </h2> </li>
+                        <li> <a href="/who-we-are/our-mission"> Our mission </a>  </li>
+                    </ul>
+				</div>
+				<div class="row-fluid footer-mini-block">
+                    <ul class="footer-list">
+                        <li> <h2> <a href="/what-we-do"> What we do </a> </h2> </li>
+                        <li> <a href="/what-we-do/crime-threats"> How we investigate </a> </li>
+                        <li> <a href="/what-we-do/how-we-work"> How we work</a> </li>
+                    </ul>
+				</div>
+				<div class="row-fluid visible-phone">
+					<div class="span12">
+						<div class="blue-border-mobile"> </div>
+					</div>			
+				</div>
+			</div>
+			<div class="span3 footer-padding-top footer-padding-left-mobile">
+				<div class="row-fluid footer-mini-block">
+                    <ul class="footer-list">
+                        <li class="zero-padding-bottom"> <h2> <a href="/news"> News </a> </h2> </li>
+                        <li class="zero-padding-top"> <h2> <a href="/most-wanted-search"> Most wanted</a> </h2> </li>
+                    </ul>
+				</div>
+				<div class="row-fluid footer-mini-block">
+                    <ul class="footer-list">
+                        <li> <h2> <a href="/careers">Careers </a> </h2> </li>
+                        <li> <a href="/careers/a-day-in-the-life"> A day in the life </a> </li>
+                        <li> <a href="/careers/vacancies"> Current vacancies </a> </li>
+                    </ul>
+				</div>
+				<div class="row-fluid visible-phone">
+					<div class="span12">
+						<div class="blue-border-mobile"> </div>
+					</div>			
+				</div>
+			</div>
+			<div class="span3 footer-padding-top footer-padding-left-mobile">
+                <ul class="footer-list">
+                    <li> <h2> <a href="/contact-us"> Contact us </a> </h2> </li>
+                  <li><a href="/missingpersons"> Missing persons </a> </li>
+					<li> <a href="/what-we-do/crime-threats/operation-stovewood-rotherham-child-sexual-abuse-investigation"> Operation Stovewood </a> </li>
+                    <li> <a href="https://sarsreporting.nationalcrimeagency.gov.uk"> Suspicious activity reports </a> </li>
+                    <li> <a href="/contact-us/officer-verification"> Verify an NCA officer </a> </li>
+                    <li> <a href="/contact-us/complaints"> Complaints </a> </li>
+                </ul>
+				<div class="row-fluid visible-phone">
+					<div class="span12">
+						<div class="blue-border-mobile"> </div>
+					</div>			
+				</div>				
+			</div>
+			<div class="span3 footer-padding-top footer-padding-left-mobile">
+				<div class="strong-title follow-us"> <h2> Follow us </h2></div>
+				<div class="item-icon-group">
+					<div class="item-icon"><a href="http://www.facebook.com/nca" title="Facebook"> <img src="/images/social-icons/facebook-icon.jpg" alt="" aria-hidden="true" > </a></div>
+					<div class="item-icon"><a href="http://www.twitter.com/NCA_UK" title="Twitter"> <img src="/images/social-icons/twitter-icon.jpg?v=2" alt="" aria-hidden="true" > </a></div>
+					<div class="item-icon"><a href="http://www.instagram.com/national_crime_agency/" title="Instagram"> <img src="/images/social-icons/instagram-icon.jpg" alt="" aria-hidden="true" > </a></div>
+					<div class="item-icon"><a href="http://www.linkedin.com/company/national-crime-agency" title="LinkedIn"> <img src="/images/social-icons/linkedin-icon.jpg" alt="" aria-hidden="true" > </a></div>
+				</div>
+            </div>
+            </nav>
+		</div>
+	</div>
+	
+	
+    <div class="container-fluid footer" role="contentinfo">        
+                    <div class="row-fluid footer-menu footer-grey-bg" role="navigation" aria-label="Footer bottom menu">
+                <div class="navbar">
+                    <div class="nav">
+                        <ul class="mod-menu mod-list nav ">
+<li class="nav-item item-106"><a href="/sitemap?view=html&amp;id=2" role="menuitem">Sitemap</a></li><li class="nav-item item-108"><a href="/privacy-and-cookie-policy" role="menuitem">Privacy and Cookie Policy</a></li><li class="nav-item item-109"><a href="/terms-and-conditions" role="menuitem">Terms and Conditions</a></li><li class="nav-item item-792"><a href="/who-we-are/publications?category[0]=1&amp;category_children=1" >Publications</a></li><li class="nav-item item-799"><a href="/accessibility-statement" role="menuitem">Accessibility statement</a></li></ul>
+
+                    </div>
+					<div class="row-fluid footer-grey-bg visible-phone">
+						<div class="text-center copyright">&copy; Crown Copyright</div>
+					</div>
+                </div>				
+            </div>
+                <div class="row-fluid footer-grey-bg hidden-phone">
+            <div class="pull-left copyright">&copy; Crown Copyright</div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="/templates/nca/js/disclosureMenu.js"></script>
+<script type="text/javascript" src="/templates/nca/plugins/fancybox/jquery.fancybox.min.js"></script>
+<script type="text/javascript" src="/templates/nca/js/main.min.js?v=3"></script>
+</body>
+</html>

